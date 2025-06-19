@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
+    "section": "",
+    "text": "What am I focused on at this point in life?\nUpdated 13th April 2025, from Paris, FR.\n\n📚 Research & Work\n\nLife has been in hyper-drive since the last time I wrote one of these. My role at work (Hugging Face) has changed quite drastically, lot more high stakes and hell of a lot more fun. Be it collaborating with some of the top labs, researching Audio LMs, Text-to-Speech or about helping the team excute new product ideas/ directions - it has been a hoot and a half.\nIt’s also good realisation to take it easy every now and then, all gas and no pitstop is not as fun. That said, this job has pretty much made me an adrenaline junkie with so much cool stuff happening all around.\nI’m also quite lucky to have people who have my best interests around me at work too, looking at you Julien, Lys, and Pedro - priviliged to be working with these lads!\nFun tid-bit: I’ve understood that I’m good for nothing in the mornings and usually my brain kicks-in around mid-day.\nLesson from last couple months - you/ your team is as good as the incentives they are provided with, change the incentives, you can change the outcomes!\n\n\n🙌 Volunteering\n\nStill haven’t found the calm or the energy to get back to volunteering. More than the volunteering I do miss the friends I made along the way. I’m hoping I get a chance to meet some of these lovelies soon.\nOn the brightside, I’m moving on nicely from last years dramatic EuroPython :)\n\n\n🧠 Mental health\n\nBasically, endurance sports is all you need to get the good old man up in the head to stop playing tricks with you! Been running and biking off-late and it has been keeping me sane whilst everything around me is in hyperdrive.\nThis also means I have a huge dependence on running/ biking to take the edge off - spend Feb/ March battling with a crazy case of spint splints & plantar fasciitis and the mind did take a good toll.\nStill, overall it’s been mostly positive and I’m happy thet there’s a consistent way to channelise energy now!\n\n\n🏡 “Home”\n\nOof, loads of thinking about this one, whilst I really love where I live currently - it comes with it’s own side effects. Mostly comes down to how deeply integrated one is in their surroundings. I love the nature around but it still doesn’t feel like home, with friends scattered around different countries, I feel a little lost sometimes. It’s a chicken and egg problem, you need to put in the time to feel at home but at the same time because you don’t feel at home you put in time in mindless pursuits.\nHoping to figure out long term plans soon and put them in motion ^^’\n\n\n✈️ Travel & Public speaking\n\nAfter two years of hiatus from public speaking, I’m getting back into action this year with a few guest lectures/ workshops and talks lined up already. Going to be fun rest of the year and I’m here for it!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "VB’s thoughts, comments and musings",
+    "section": "",
+    "text": "Run Phi-4 with ollama and Hugging Face\n\n\n\n\n\n\nllm\n\n\nollama\n\n\nmac\n\n\nmetal\n\n\ncuda\n\n\nphi4\n\n\nphi\n\n\n\n\n\n\n\n\n\nJan 16, 2025\n\n\nVB\n\n\n\n\n\n\n\n\n\n\n\n\nAll things running 🏃‍♂️\n\n\n\n\n\n\nthings\n\n\nrunning\n\n\nnutrition\n\n\nrecovery\n\n\nmarathon\n\n\n\n\n\n\n\n\n\nDec 27, 2024\n\n\nVB\n\n\n\n\n\n\n\n\n\n\n\n\nRun Phi-3.5 with llama.cpp\n\n\n\n\n\n\nllm\n\n\nllama.cpp\n\n\nmac\n\n\nmetal\n\n\ncuda\n\n\nphi3.5\n\n\nphi\n\n\n\n\n\n\n\n\n\nAug 22, 2024\n\n\nVB\n\n\n\n\n\n\n\n\n\n\n\n\nList of random things I keep forgetting\n\n\n\n\n\n\nthings\n\n\n\n\n\n\n\n\n\nJul 29, 2024\n\n\nVB\n\n\n\n\n\n\n\n\n\n\n\n\nLive async, live happy\n\n\n\n\n\n\nasync\n\n\n\n\n\n\n\n\n\nJul 29, 2024\n\n\nVB\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is home?\n\n\n\n\n\n\nhome\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nVB\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/things-i-keep-forgetting/index.html",
+    "href": "posts/things-i-keep-forgetting/index.html",
+    "title": "List of random things I keep forgetting",
+    "section": "",
+    "text": "I often end up looking for certain commands/ code snippets so here is a list.\n\nChange the server language to English: export LC_ALL=C\nLook at the username for of who is running a process on a multi-user server: ps -u -p &lt;PROCESS_ID&gt;\nRe-authenticate with github after your PAT has expired: gh auth login -h [github.com](http://github.com/)\nPip install without clogging the cache dir, add a --no-cache-dir flag to your pip install commands.\nCreate a virtual environment with python -m venv &lt;path_to_the_environment&gt; command.\nRun a python script with nohup and pipe the output to a file. nohup python my_script_is_the_best.py &&gt; my_scripts_output.out 2&gt;&1 &\nBatch convert wav files to mp3 files with ffmpeg - for f in *.{wav,WAV}; do ffmpeg -i \"$f\" -c:a libmp3lame -q:a 2 \"${f%.*}.mp3\"; done\nAppend a prefix to specific files in a directory - for f in {0,1,2,3,4,5}.mp3; do mv \"$f\" \"GAN_$f\"; done"
+  },
+  {
+    "objectID": "posts/run-phi-on-device-ollama/index.html",
+    "href": "posts/run-phi-on-device-ollama/index.html",
+    "title": "Run Phi-4 with ollama and Hugging Face",
+    "section": "",
+    "text": "This is going to be a short post or rather a testlog for how to run the most accurate version of Microsoft Phi-4 on your Mac."
+  },
+  {
+    "objectID": "posts/run-phi-on-device-ollama/index.html#step-1-setup-ollama",
+    "href": "posts/run-phi-on-device-ollama/index.html#step-1-setup-ollama",
+    "title": "Run Phi-4 with ollama and Hugging Face",
+    "section": "Step 1: Setup ollama",
+    "text": "Step 1: Setup ollama\nOn a mac, you can install ollama using homebrew:\nbrew install ollama\nOn a Windows/ Linux device, you can follow the instructions on the Ollama Docs)"
+  },
+  {
+    "objectID": "posts/run-phi-on-device-ollama/index.html#step-2-kickstart-ollama",
+    "href": "posts/run-phi-on-device-ollama/index.html#step-2-kickstart-ollama",
+    "title": "Run Phi-4 with ollama and Hugging Face",
+    "section": "Step 2: Kickstart ollama",
+    "text": "Step 2: Kickstart ollama\nollama serve"
+  },
+  {
+    "objectID": "posts/run-phi-on-device-ollama/index.html#step-3-run-inference-with-phi-4",
+    "href": "posts/run-phi-on-device-ollama/index.html#step-3-run-inference-with-phi-4",
+    "title": "Run Phi-4 with ollama and Hugging Face",
+    "section": "Step 3: Run inference with Phi-4",
+    "text": "Step 3: Run inference with Phi-4\nAfter some research I found that the Phi-4 GGUFs from Unsloth are the most accurate. They ran bunch of evals and also converted the model to LLaMa format. You can find it here: unsloth/phi-4-GGUF.\nollama run hf.co/unsloth/phi-4-GGUF\nI’d also recommend reading the blogpost about the fixes for the Phi-4 model here."
+  },
+  {
+    "objectID": "posts/run-phi-on-device-ollama/index.html#step-4-use-it-for-your-own-tasks",
+    "href": "posts/run-phi-on-device-ollama/index.html#step-4-use-it-for-your-own-tasks",
+    "title": "Run Phi-4 with ollama and Hugging Face",
+    "section": "Step 4: Use it for your own tasks",
+    "text": "Step 4: Use it for your own tasks\nThat’s the fun bit, once the model is loaded, you can do whatever you want, at the touch of your terminal.\nGo on and try out some of your own prompts, and see how it works.\n\n\n\nChatting with Phi 4 on my Macbook with Ollama\n\n\nBonus: Now go try other GGUF models on the Hub and compare their performance with Phi 4.\nand.. that’s it!\nOh, sorry, one last thing, you can now even run private GGUFs from the Hugging Face Hub via ollama, read here."
+  },
+  {
+    "objectID": "posts/all-things-running/index.html",
+    "href": "posts/all-things-running/index.html",
+    "title": "All things running 🏃‍♂️",
+    "section": "",
+    "text": "I love running, and have recently embarked on the journey to race a marathon in June 2025. In the past, I’ve reached half-marathon distances multiple times, but have never went higher than that.\nThis page is a collection of resources and tips I’ve found online, that I either have found useful or would like to try out in the future."
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#training",
+    "href": "posts/all-things-running/index.html#training",
+    "title": "All things running 🏃‍♂️",
+    "section": "Training",
+    "text": "Training\n\nIt’s recommended to follow a training plan, something that mixes speed work with longer runs. I’m using Runna to generate and follow a plan (it’s a bit expensive ~20 EUR/month).\nGet a watch that at the very least tracks splits/ time elapsed. I recently upgraded to a Apple Watch Series 10 (~460 EUR) and it does it’s job. DC Rainmaker has a good review of all.\nComfy clothes that make you feel comfortable whilst running - decathalon has a very good selection (specially for winters), you don’t need to spend a lot on this - but get this right, specially for winters - good read.\nShoes - again this is quite vibe based, you cannot go wrong either way, this requires a bit of experimentation ofc - for ref I’ve been using 80 EUR Puma running shoes for past 1.5 years, and it’s pretty good - another worthwhile read.\nOptional but recommended: create a Strava account, it’s a great way to keep yourself motivated and track your progress. Here’s mine.\nA fun way to keep yourself motivated is to run races leading up to the marathon, these could be 10Ks, half marathons or just fun runs (keeps the goal achievable)."
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#recovery",
+    "href": "posts/all-things-running/index.html#recovery",
+    "title": "All things running 🏃‍♂️",
+    "section": "Recovery",
+    "text": "Recovery\n\nIt’s good to walk a KM or two after runs, it helps bring the heart rate down and helps “settle” the legs - good discussion.\nWhilst the jury is out on the need of stretching, I’ve anecdotaly found static stretches to help feel quite a bit flexible the rest of the day - here’s what I follow.\nIt’s a good idea to introduce one or two rest days in the week - a good reddit thread.\nMagnesium helps with sore legs (I usually take 500mg after a long run) - good read.\nTake a nice long shower, you deserve it, and you probably stink a lot too ;)"
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#nutrition",
+    "href": "posts/all-things-running/index.html#nutrition",
+    "title": "All things running 🏃‍♂️",
+    "section": "Nutrition",
+    "text": "Nutrition\nFew basic things I’ve learned:\n\nMake sure to drink enough water 30-45 minutes before the run, you can even take a bit of electrolytes (although not too much).\nChase up the run with a protein shake and chocolate milk, and drink loads of water in the hours after the run. It’s almost critical to eat something within 30 minutes of your run.\nAvoid over caffeinating before the run (I’ve experimented a bit and I do well as long as I’ve had one coffee, more than that makes my heart race a bit too much).\nDon’t eat a big breakfast or anything that takes a long time to digests one hour before the run (avoid dairy, fiber and fruits).\nHaving a carb rich meal before the run helps feeling overall more energetic throughout the run (I’ve just started experimenting with this).\n\nUp to 15 KMs\n\nCarry on as you would for a normal run, but make sure to hydrate well after the run.\nDon’t run till you hit a wall, everyone has different energy consumption, learn your limits, running on fumes almost always causes injury/ cramps.\nIt’s worth getting atleast two seperate running shoes, which you alternate between runs - this helps with overuse injuries.\nAs long as it’s more than an hour, taking a gel is more than recommended.\n\nUp to 30KMs\n\nTake up 1-2 isotonic + energy gels, the goal is to get 60-80g catbs per hour of your run. (As of the date of the post, I haven’t tried this yet)"
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#shin-splints",
+    "href": "posts/all-things-running/index.html#shin-splints",
+    "title": "All things running 🏃‍♂️",
+    "section": "Shin splints",
+    "text": "Shin splints\nLast week (week of 19 Jan), I ramped up my running to 45KMs a week AND this was after an intense week of skiing. It was a bit stupid and straight up delusional for me to subject myself to that - but, well, we live and learn.\nHere’s some stuff I’ve realised and learnt in the past week:\n\nYou just gotta wait it out, and do as little as possible for a few days (even avoid walking as much).\nIce that bastard, even multiple times a day - I’d just use a frozen pack of peas for 15-20 minutes at a time.\nDo really guided and slow foam rolling, it takes some getting used to, but it’s a good way to release some knots and tension in the shins/ calves.\nThe thing that worked the best is to massage around and directly at the shin splint area using both your thumbs, specially in the early days it can hurt a bit, but it gets better progressively.\nThis is something reddit has recommended quite a bit, here\n\nLesson learnt: don’t go too hard too fast, and don’t be too stubborn to take it easy."
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#plantar-fasciitis",
+    "href": "posts/all-things-running/index.html#plantar-fasciitis",
+    "title": "All things running 🏃‍♂️",
+    "section": "Plantar fasciitis",
+    "text": "Plantar fasciitis\nAfter recovering a bit from the shin splints I ended up getting a pretty bad case of PF.\nHere’s some stuff I’ve learnt about it:\n\nBuy shoes after measuring your feet and the size of your upper box specifically, most cases stem from super tight shoes.\nDo not walk barefoot, for couple months - buy a pair of birkenstock and stick with them for couple months.\nReally load up your legs specifically your calves - squats, lunges, calf raises and one leg RDLs are your best friend.\nDon’t stop running, keep accumulating slow kms (even if it’s walking speed).\nIt’s going to be awhile before you feel 100% again - but it’s okay, you’ll be fine!"
+  },
+  {
+    "objectID": "posts/all-things-running/index.html#zone-2-running",
+    "href": "posts/all-things-running/index.html#zone-2-running",
+    "title": "All things running 🏃‍♂️",
+    "section": "Zone 2 Running",
+    "text": "Zone 2 Running\nFor the past 4-5 weeks (from 25th May) I’ve been experimenting doing a lot of volume at Easy pace, and I mean really easy pace. The real motivation was to reduce the number of times I got injured whilst trying to build volume.\nThat said, it’s brutal and humbles you quite quickly. As someone who suffered from Asthma growing up and basically kept an arms length away from sports it’s been surreal trying to run slowly.\nHere’s some stuff I’ve learnt about it:\n\nIt’s going to be tough. Jogging is your best friend.\nGo slow but try to go long (even if it means that you walk for prolonged periods of time).\nMeasure your heart rate, try to stay within the zone, ofc if you go uphill hte you might dip into Z3, it’s okay - don’t overthink it.\nTry to add some strides before cool down, they are a good way to keep the fun alive.\nBe prepared to be humbled, everyone and their mums will be faster than you on strava, remember, it’s all for you - fuck the rest.\nTry to focus on cadence, try to keep it above 165 (it’ll help you avoid injuries).\nIt’s going to get better sooner than you think.\n\natm I’m average from 07:00-08:30/ km in Zone 2, I started at 09:30/ km 5 weeks back, you build good posture and cadence back."
+  },
+  {
+    "objectID": "posts/run-phi-on-device-llama-cpp/index.html",
+    "href": "posts/run-phi-on-device-llama-cpp/index.html",
+    "title": "Run Phi-3.5 with llama.cpp",
+    "section": "",
+    "text": "I’m a strong believer that as we continue to traverse the AI/ ASI/ AGI landscape, the net compute required for accessing it would decrease i.e. we’ll get smaller but stronger models.\nAs these models continue to become smaller and stronger, it’s more likely that you can run inference directly on your device and replace your on-line/ API based LLM usage (like ChatGPT, Gemini, Claude, etc). Hence, I continue to keep an eye out for smaller models.\nThe big question here, is what use-cases do you actually use these on-device models for?\nI use them for a few select task, like, rewriting, summarizing, quick syntax lookups, or just quick vibe checks on a topic (asking the model to critique what I’ve written) and creative explorations.\nThis brings us to Phi 3.5. The other day, Microsoft released an update to their Phi series of small scale LLMs: Phi 3.5.\nThe highlight: Phi 3.5 mini, MoE and vision with 128K context, multilingual & MIT license! 🔥\nThe MoE beats Gemini flash and the Vision model is competitive with GPT4o.\nSome quick notes on the models and they atleast look good on benchmarks:\nMini with 3.8B parameters\nMoE with 16x3.8B (6.6B active - 2 experts)\nPh3.5 Vision with 4.2B params\nThe star of the show for me atleast is the Phi-3.5 Mini, it looks like decently sized model which would make it easy to fine-tune for specific tasks.\nAlright, enough of about the models, let’s try to see if we can run this model on your Mac/Windows/Linux device.\nThere are multiple ways to run a model on-device - you can use, transformers, llama.cpp, MLC, ONNXRuntime and bunch others. One of the easiest ways however is to use llama.cpp, once setup - it just works across pretty much all well-known model architectures."
+  },
+  {
+    "objectID": "posts/run-phi-on-device-llama-cpp/index.html#step-1-setup-llama.cpp",
+    "href": "posts/run-phi-on-device-llama-cpp/index.html#step-1-setup-llama.cpp",
+    "title": "Run Phi-3.5 with llama.cpp",
+    "section": "Step 1: Setup llama.cpp",
+    "text": "Step 1: Setup llama.cpp\nOn a mac, you can install llama.cpp using homebrew:\nbrew install llama.cpp\nOn a Windows/ Linux device, you can follow the instructions on the llama.cpp Docs)\nFor example, a typical build command for CUDA enabled device looks like this:\ngit clone https://github.com/ggerganov/llama.cpp && \\\ncd llama.cpp && \\\nmake GGML_CUDA=1 LLAMA_CURL=1\nThere are plenty other permutations and combinations so feel free to look at those on the linked docs above."
+  },
+  {
+    "objectID": "posts/run-phi-on-device-llama-cpp/index.html#step-2-run-inference-with-phi3.5",
+    "href": "posts/run-phi-on-device-llama-cpp/index.html#step-2-run-inference-with-phi3.5",
+    "title": "Run Phi-3.5 with llama.cpp",
+    "section": "Step 2: Run inference with Phi3.5",
+    "text": "Step 2: Run inference with Phi3.5\nTo be able to run a LLM on-device all you need is to find the model on the hub and simply point the llama.cpp’s built binaries to it. There are over 30,000 quantized llama.cpp models on the Hub. For our use-case we’ll use the lmstudio-community/Phi-3.5-mini-instruct-GGUF repo by the good folks at lm-studio.\nllama-cli --hf-repo lmstudio-community/Phi-3.5-mini-instruct-GGUF \\\n--hf-file Phi-3.5-mini-instruct-Q6_K.gguf \\\n-p \"The meaning to life and the universe is\" -c 8192"
+  },
+  {
+    "objectID": "posts/run-phi-on-device-llama-cpp/index.html#step-3-use-it-for-your-own-tasks",
+    "href": "posts/run-phi-on-device-llama-cpp/index.html#step-3-use-it-for-your-own-tasks",
+    "title": "Run Phi-3.5 with llama.cpp",
+    "section": "Step 3: Use it for your own tasks",
+    "text": "Step 3: Use it for your own tasks\nThat’s the fun bit, once the model is loaded, you can do whatever you want, at the touch of your terminal.\nGo on and try out some of your own prompts, and see how it works. There’s myriads of options you can use whilst playing with the model, check out the llama.cpp docs for more details.\nHere’s some of the options I use quite a bit:\nllama-cli --hf-repo bartowski/Phi-3.5-mini-instruct-GGUF \\\n--hf-file Phi-3.5-mini-instruct-Q8_0.gguf \\\n-p \"Hey my name is Sof, what are you upto?\" -c 8192 -cnv --color\n-c is the context window size, -cnv is to use the conversation/ chat mode and --color is to colorize the output.\nBonus: Now go try other GGUF models on the Hub and compare their performance with Phi 3.5.\nand.. that’s it!"
+  },
+  {
+    "objectID": "posts/what-is-home/index.html",
+    "href": "posts/what-is-home/index.html",
+    "title": "What is home?",
+    "section": "",
+    "text": "Written on 26th December 2023, from Gurgaon, India.\nI’m currently in India, and as someone who doesn’t actively live in the country anymore, it is always a bittersweet experience whenever I travel between countries.\nTravelling to India 🛬 - Is a joyride; it evokes the feeling of belongingness paired with the anticipation of meeting my loved ones, eating some good food (not butter chicken), and most of all, being in a place of comfort. It’s a place where I’ve messed up umpteen numbers of times and gotten back up.\nTravelling out of India 🛫 - Is an emotional rollercoaster; not knowing when I will see my loved ones again evokes a feeling of emptiness, and the short life doesn’t make the departure easy. At the same time, the knowledge that I’ll return to another country that I call home, living the life I chose, makes me feel elated.\nAll of this begs to answer the question: what is home? ☺️\nI went to the mountains recently, which involved a lot of sitting in the car and a lot of time to ponder this topic.\nHere are some unkempt thoughts:\n\nIt is a place where you can be yourself. A place where you can express yourself without the fear of being judged.\nA place where you can be vulnerable.\nIt is a person who tells you you’ve messed up and helps you while you fix it.\nWhere you feel motivated to get better (financially/ physically/ mentally) for your home.\nIt is a safe place where you can exist.\n\nIn the recent past (half a decade), I’ve been quite lucky and privileged to build a few:\n\nMy best friend turned partner, Sofdog - My life wouldn’t be as worthwhile and fruitful as it is now if it weren’t for her watching out for me. Having tough conversations where we can be vulnerable and express ourselves without feeling judged, all whilst sharing the passion of exploring the world one city at a time.\nMum, Dad & my sister - Even though we’re often a couple of thousand kilometres apart, I’ve never felt lonely all because these three have ensured I’ve always been at ease. They’ve always been there through thick and thin. I am lucky to have grown with such inclusive and progressive thoughts.\nFriends - Raquel, Patrick, Emils, Sven, and Zeina - Have played an important role in my life. They’ve helped me max out life whilst being around me when I was hurting or guiding me when I was clueless.\nStuttgart - I spent my best life so far in Stuttgart. I got the time and space to dive deep into my research, all whilst making connections I’ll cherish until the end. However, I’ve moved away from Stuttgart recently. It will continue to be a place that I’ll think fondly of.\n\nSo, in the end, what is home? 😊\nAs this year (2023) dawns to an end, I’m quite bullish on the next few. I can’t wait to build new homes.\nI’d love to know what makes you feel at home. Send me a DM on Twitter or drop me a ping at reachvaibhavs10[at]gmail[dot]com\nCheers! 🍻 VB\nAppendix - FAQ\n\nYou’ve changed in recent times. That’s correct; I am a bit snobbier now (always a delhite); I take things way more lightly now. I’m more direct (don’t mince my words). I’m sorry if my words hurt you.\nDo I still have a tolerance for Spice? No. It causes me intense pain in the belly. And no, I do not want to build it back up.\nDo I intend to come back to India to live long-term? Not in the immediate future (&lt; 2 years), and I do not plan life more than two years in advance. I’ll continue to visit, albeit a bit more frequently now.\nWhat do you not like about India? First, I love Delhi, and it’ll forever be my home. That said, I don’t like the political climate in India. I despise the pollution. The traffic is nightmare fuel. And no, this is not up for discussion. I find conversations like those to be not worth your or my time.\nPeople in tech get paid much more in India than in Europe. That’s great, and I’m quite happy for the tech scene in India.\nDo I make good money? I make enough to have food on the table and some occasional trips here and there. That’s more than sufficient for me. But, deffo something I will improve in ’24."
+  },
+  {
+    "objectID": "posts/live-async/index.html",
+    "href": "posts/live-async/index.html",
+    "title": "Live async, live happy",
+    "section": "",
+    "text": "Why I don’t take calls and take ages to respond?\nI often get my butt kicked for not responding to acquaintances and colleagues on time. I also get the stink eye for refusing to do meetings, phone/ zoom calls, and everything that comes with them.\nTo be honest, a one-hour physical meeting can be a 30-minute virtual meeting, a 30-minute virtual meeting can be a 10-minute phone call, and a 10-minute phone call can be a 2-minute email.\nI prefer written communication. It’s documented, clear, and doesn’t require me to break my focus.\nBut why avoid meetings in the first place? Isn’t face-to-face interaction better?\nI have the attention span of a peanut. It often takes me ages to find inspiration. Once I find that inspiration, I like capitalising on it as much as possible. Given how fickle my mind is I tend to aggressively preserve my “inspired time”.\nWhile face-to-face interactions “may” be better. They do result in an absurd amount of cognitive load.\nSo why make life difficult for both you and me? Async rules!\nWhat about virtual meetings? They are a good proxy for in-person meetings and don’t often require as much time.\nTrue-ish, but if I know I have a meeting on a particular day, I’d constantly be stressing out about it. Irrespective of the contents of the meeting, I’d be consumed by it and have a sub-optimal experience.\nHow do I reach you?\nEmail me at Vaibhavs10[at]gmail[dot]com or drop a line on twitter @reach_vb 🤗\nLive async, live happy!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m an ML Developer Advocate at Hugging Face focusing on extracting better insights from Text + Audio & on-device ML.\nI’ve been a freelancer, tax analyst, consultant, tech speaker and advisor for five years. In the past three years, I’ve invested significant time volunteering for open source and science organisations like Hugging Face, EuroPython, PyCons across APAC, Google Cloud Delhi, and Facebook Developer Circles.\nDelhi native, I now live in France!\nWhat am I doing now?\nNow"
+  },
+  {
+    "objectID": "about.html#me-in-10-seconds",
+    "href": "about.html#me-in-10-seconds",
+    "title": "About",
+    "section": "",
+    "text": "I’m an ML Developer Advocate at Hugging Face focusing on extracting better insights from Text + Audio & on-device ML.\nI’ve been a freelancer, tax analyst, consultant, tech speaker and advisor for five years. In the past three years, I’ve invested significant time volunteering for open source and science organisations like Hugging Face, EuroPython, PyCons across APAC, Google Cloud Delhi, and Facebook Developer Circles.\nDelhi native, I now live in France!\nWhat am I doing now?\nNow"
+  },
+  {
+    "objectID": "about.html#me-in-10-minutes",
+    "href": "about.html#me-in-10-minutes",
+    "title": "About",
+    "section": "Me in 10 Minutes",
+    "text": "Me in 10 Minutes\nI’m an engineer at heart who likes to fix more things than he breaks. I’m researching and democratising niche Audio Understanding, Enhancement and Generation systems at the University of Stuttgart & Hugging Face. I’ve consulted across the board, from Startups to Fortune Technology 10 firms, to help them build ML into their day-to-day workflows and make better sense of unstructured data silos. I’ve spent the past five years exploring the world of Data, Linguistics and Math.\nIn addition to my research, I’ve been cultivating Machine Learning for Audio study group with the Hugging Face community. I was also recently made a Hugging Face Fellow for my advocacy work.\nI’m always game for research collaborations and freelance consulting work. Head to Talks and Consulting to learn how I can create value for you and your organisation. Drop me a line on Twitter (@reach_vb), and we’ll figure out the rest! ;)\n\nTimeline for context\n2014: Marketing + Sales funnel analytics for Microsoft Lumia campaigns in India.\n2016: Freelance Data Analytics + Visualisation for Print + Social Media agencies.\n\nMedium-scale businesses with a focus on creating more re-usable IP\nScaled to mid-5-figure revenue\nShut down in mid-2017 owing to health complications and burnout\n\n2017: Data Science consultant @ Deloitte US-India\n\n12 countries, 3M$+ impact\n\n2020: Moved to Germany - to research NLP & Speech\n2023: Moved to France - to democratise NLP & Speech"
+  }
+]
